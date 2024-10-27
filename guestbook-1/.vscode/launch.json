@@ -2,6 +2,16 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Deploy Cloud Function",
+            "type": "cloudcode.cloudfunctions",
+            "request": "launch",
+            "functionName": "aenzbi",
+            "gen": "GEN_2",
+            "revision": "",
+            "entryPoint": "helloWorld",
+            "testInput": "salam"
+        },
+        {
             "name": "Run on Kubernetes",
             "type": "cloudcode.kubernetes",
             "request": "launch",
